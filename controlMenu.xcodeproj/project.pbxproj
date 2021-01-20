@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2611E29E25B330230050BE14 /* UpdateMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611E29D25B330230050BE14 /* UpdateMenuViewController.swift */; };
+		26281E3925A4B40F009AC87E /* ButtonMenuDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281E3825A4B40F009AC87E /* ButtonMenuDemoViewController.swift */; };
 		263CC79E259C577400C51940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC79D259C577400C51940 /* AppDelegate.swift */; };
 		263CC7A0259C577400C51940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC79F259C577400C51940 /* SceneDelegate.swift */; };
 		263CC7A2259C577400C51940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC7A1259C577400C51940 /* ViewController.swift */; };
@@ -15,6 +17,10 @@
 		263CC7AA259C577500C51940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263CC7A8259C577500C51940 /* LaunchScreen.storyboard */; };
 		263CC7B5259C577500C51940 /* controlMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC7B4259C577500C51940 /* controlMenuTests.swift */; };
 		263CC7C0259C577500C51940 /* controlMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC7BF259C577500C51940 /* controlMenuUITests.swift */; };
+		267A771325AB432B0027AFFC /* SegmentedControlDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A771225AB432B0027AFFC /* SegmentedControlDemoViewController.swift */; };
+		26B2A99D25AF411F00221EC4 /* DeferredMenuElementDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B2A99C25AF411F00221EC4 /* DeferredMenuElementDemoViewController.swift */; };
+		26D5E98F259F603C00EF7E05 /* BarButtonItemDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5E98E259F603C00EF7E05 /* BarButtonItemDemoViewController.swift */; };
+		26F1F4BE259C58BE00353B61 /* CustomMenuControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1F4BD259C58BE00353B61 /* CustomMenuControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2611E29D25B330230050BE14 /* UpdateMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMenuViewController.swift; sourceTree = "<group>"; };
+		26281E3825A4B40F009AC87E /* ButtonMenuDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenuDemoViewController.swift; sourceTree = "<group>"; };
 		263CC79A259C577400C51940 /* controlMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = controlMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263CC79D259C577400C51940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263CC79F259C577400C51940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		263CC7BB259C577500C51940 /* controlMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = controlMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263CC7BF259C577500C51940 /* controlMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlMenuUITests.swift; sourceTree = "<group>"; };
 		263CC7C1259C577500C51940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267A771225AB432B0027AFFC /* SegmentedControlDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlDemoViewController.swift; sourceTree = "<group>"; };
+		26B2A99C25AF411F00221EC4 /* DeferredMenuElementDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredMenuElementDemoViewController.swift; sourceTree = "<group>"; };
+		26D5E98E259F603C00EF7E05 /* BarButtonItemDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItemDemoViewController.swift; sourceTree = "<group>"; };
+		26F1F4BD259C58BE00353B61 /* CustomMenuControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				263CC79F259C577400C51940 /* SceneDelegate.swift */,
 				263CC7A1259C577400C51940 /* ViewController.swift */,
 				263CC7A3259C577400C51940 /* Main.storyboard */,
+				26F1F4BD259C58BE00353B61 /* CustomMenuControl.swift */,
+				26281E3825A4B40F009AC87E /* ButtonMenuDemoViewController.swift */,
+				267A771225AB432B0027AFFC /* SegmentedControlDemoViewController.swift */,
+				26B2A99C25AF411F00221EC4 /* DeferredMenuElementDemoViewController.swift */,
+				2611E29D25B330230050BE14 /* UpdateMenuViewController.swift */,
+				26D5E98E259F603C00EF7E05 /* BarButtonItemDemoViewController.swift */,
 				263CC7A6259C577500C51940 /* Assets.xcassets */,
 				263CC7A8259C577500C51940 /* LaunchScreen.storyboard */,
 				263CC7AB259C577500C51940 /* Info.plist */,
@@ -258,9 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267A771325AB432B0027AFFC /* SegmentedControlDemoViewController.swift in Sources */,
+				2611E29E25B330230050BE14 /* UpdateMenuViewController.swift in Sources */,
 				263CC7A2259C577400C51940 /* ViewController.swift in Sources */,
+				26B2A99D25AF411F00221EC4 /* DeferredMenuElementDemoViewController.swift in Sources */,
 				263CC79E259C577400C51940 /* AppDelegate.swift in Sources */,
+				26D5E98F259F603C00EF7E05 /* BarButtonItemDemoViewController.swift in Sources */,
 				263CC7A0259C577400C51940 /* SceneDelegate.swift in Sources */,
+				26281E3925A4B40F009AC87E /* ButtonMenuDemoViewController.swift in Sources */,
+				26F1F4BE259C58BE00353B61 /* CustomMenuControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
